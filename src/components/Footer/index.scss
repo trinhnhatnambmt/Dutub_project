@@ -1,0 +1,80 @@
+.Footer_Web{
+    position: fixed;
+    bottom: 0;
+    padding: 50px;
+    background-color: #f9fafb;
+    width: 100%;
+
+    .Footer_Web__Contents{
+        display: flex;
+        gap: 150px;
+        
+        .Footer_Web__Contents__About__web{
+            width: 15vw;
+
+            .Footer_Web__Contents__About__web_Logo{
+                width: 200px;
+                margin: 0 0 30px 0;
+            }
+
+            .Footer_Web__Contents__About__web_text{
+                color: #344051;
+                width: 100%;
+                text-align: left;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .Footer_Web__Contents__About__web_Logo_ContactWeb{
+                margin-top: 20px;
+                display: flex;
+                gap: 10px;
+            }
+        }
+
+        .Footer_Web__Contents__Link__web{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+
+            .Footer_Web__Contents__Link__web_element{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .Footer_Web__Contents__Link__web_element_title{
+                    font-size: 20px;
+                    font-weight: 800;
+                    color: #344051;
+                }
+
+                .Footer_Web__Contents__Link__web_element_Link{
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: #637083;
+                }
+
+                .Footer_Web__Contents__Link__web_element_Link:hover{
+                    color: #344051;
+                }
+            }
+        }
+    }
+
+    .Footer_Web_Bottom{
+        margin-top: 40px;
+        border-top: #e4e7ec solid 1px;
+        padding-top: 40px;
+        font-size: 16px;
+        font-weight: 500;
+
+        .Footer_Web_Bottom_Link{
+            text-decoration: none;
+            color: #0053f1;
+        }
+        .Footer_Web_Bottom_Link:hover{
+            color: #637083;
+        }
+    }
+}
