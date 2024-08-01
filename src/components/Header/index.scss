@@ -1,9 +1,10 @@
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    // background-color: #333;
+    background-color: transparent;
+    backdrop-filter: blur(2.5px);
 
     &__inner {
         width: 1440px;

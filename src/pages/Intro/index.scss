@@ -1,3 +1,9 @@
 .intro {
-    background-color: red;
+    overflow-y: hidden;
+    video {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        z-index: -1;
+    }
 }
