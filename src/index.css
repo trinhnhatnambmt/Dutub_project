@@ -7,6 +7,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-family: "Roboto", sans-serif;
+    --primary-color: #17d5ff;
+}
+
+a {
+    text-decoration: none;
+}
+
 html,
 body,
 div,

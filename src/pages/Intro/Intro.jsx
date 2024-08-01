@@ -1,6 +1,6 @@
 import "./index.scss";
 function Intro() {
-    return <div>Intro</div>;
+    return <div className="intro">Intro</div>;
 }
 
 export default Intro;
