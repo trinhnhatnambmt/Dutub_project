@@ -1,14 +1,28 @@
+import { ArrowRightOutlined } from "@ant-design/icons";
+import { introVideo } from "../../assets";
+import Footer from "../../components/Footer/Footer";
 import "./index.scss";
 
 function Intro() {
     return (
         <div className="intro">
             <video autoPlay muted loop>
-                <source
-                    type="video/mp4"
-                    src="https://download-video.akamaized.net/v3-1/playback/00755cfa-bbf4-4bcb-a760-9982642b50d7/1ff46d31?__token__=st=1722492159~exp=1722506559~acl=%2Fv3-1%2Fplayback%2F00755cfa-bbf4-4bcb-a760-9982642b50d7%2F1ff46d31%2A~hmac=d9d828c1dfd90d86d9f8dbc20f8d2cc335a61e962dc1a5a6ff7f4a5707beff4d&r=dXMtY2VudHJhbDE%3D"
-                />
+                <source type="video/mp4" src={introVideo} />
             </video>
+            <div className="intro__content">
+                <h1 className="intro__title">Watch and create your Videos</h1>
+                <p className="intro__desc">
+                    Get everything you need to edit, manage, and publish
+                    stunning videos that move the needle.
+                </p>
+                <button className="btn">
+                    Watch Video
+                    <div className="btn__decor">
+                        <ArrowRightOutlined />
+                    </div>
+                </button>
+            </div>
+            {/* <Footer /> */}
         </div>
     );
 }

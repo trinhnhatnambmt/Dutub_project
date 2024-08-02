@@ -16,9 +16,9 @@ function Header() {
                 <div className="header__right">
                     <div className="header__cta">
                         <Link className="header__login">Log in</Link>
-                        <button className="header__signUp">
+                        <button className="header__signUp btn">
                             Sign Up{" "}
-                            <div className="signUp__decor">
+                            <div className="signUp__decor btn__decor">
                                 <ArrowRightOutlined />
                             </div>
                         </button>
